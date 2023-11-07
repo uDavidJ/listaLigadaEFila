@@ -101,13 +101,13 @@ public class App {
                     while(!(filaIdosos.isEmpty() && filaNormaL.isEmpty())) {
                         if(filaNormaL.isEmpty()) {
                             for(int i = 0; i < filaIdosos.size(); i++)
-                                System.out.println("Chamada " + (i+1) + " - " + filaIdosos.dequeue().getNome() + " - prioritária");
+                                System.out.println("Chamada " + contador2 + " - " + filaIdosos.dequeue().getNome() + " - prioritária");
                             break;
                         }
 
                         else if(filaIdosos.isEmpty()) {
                             for(int i = 0; i < filaNormaL.size(); i++)
-                                System.out.println("Chamada " + (i+1) + " - " + filaNormaL.dequeue().getNome() + " - normal");    
+                                System.out.println("Chamada " + contador2 + " - " + filaNormaL.dequeue().getNome() + " - normal");    
                             break;
                         }
 
